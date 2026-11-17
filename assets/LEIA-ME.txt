@@ -1,0 +1,12 @@
+Coloque aqui seus arquivos. Se um arquivo não existir, o jogo usa formas simples
+no lugar (sprites) ou fica em silêncio (sons), então nada quebra.
+
+assets/sprites/  jogador.png (48x64), sombra.png (40x36), ogro.png (150x160),
+                 anciao.png e mercador.png (52x70). Desenhe virado para a DIREITA.
+assets/musicas/  floresta.ogg, vale.ogg, boss.ogg
+assets/sons/     katana.wav, pulo.wav, esquiva.wav, dano.wav, centelha.wav
+assets/imagens/  fundos e outras imagens
+assets/fontes/   pixel.ttf (opcional): fonte pixel art usada em todos os textos.
+                 Sem ela o jogo usa uma fonte do sistema.
+
+Visual: em settings.py, ESCALA_PIXEL = 2 (padrão) ou 3 deixa o jogo mais granulado.
